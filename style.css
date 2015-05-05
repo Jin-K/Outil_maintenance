@@ -1,0 +1,99 @@
+body {
+    color: #C4D7ED;
+    background: #183152;
+}
+#intro {
+    margin: 0;
+    padding: 0;
+}
+/***********************carrousel*********************/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+.pauseButton {
+    right: 5px;
+    position: absolute;
+    bottom: 2px;
+}
+.carousel {
+    margin: 5px 0px 35px 0px;
+}
+/*****************************************************/
+/***********************nav tabs**********************/
+.nav-tabs > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    zoom:1; /* hasLayout ie7 trigger */
+}
+.nav-tabs {
+    text-align:center;
+}
+/*****************************************************/
+
+/************REDIFINITIONS DE BOOTSTRAP*(modifié dans bootstrap.css***************/
+/*****************Boutons de navigation***************/
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+.carousel-indicators li {
+    color: #FFF;
+    background: rgba(39,43,129,0.65);
+    display: inline-block;
+    width: 14px;
+    height: 20px;
+    margin: -2px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.carousel-indicators .active {
+    width: 14px;
+    height: 20px;
+    margin: -2px;
+    color: #000;
+    background: #fff;
+    cursor: default;
+}
+.carousel-indicators li:hover {
+    color: #000;
+    background: #FFF;
+}
+.carousel-indicators {
+    bottom: 0;
+}
+/*****************************************************/
+/*********************Texte d'aide********************/
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    //color: rgba(39,43,129,0.5); /*#272b81 à 50% d'opacité*/
+    color: #FFF;
+    text-align: center;
+    //text-shadow: 0px 0px 2px rgba(0, 0, 0, 5);
+    text-shadow: #000 1px 1px 1px, #000 -1px 1px 1px, #000 -1px -1px 1px, #000 1px -1px 1px;
+}
+.carousel-caption .btn {
+    text-shadow: none;
+}
+.carousel-caption {
+    right: 20%;
+    left: 20%;
+    bottom: 10px;
+}
+/*****************************************************/
+/*********************************************************************************/
